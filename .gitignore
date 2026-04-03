@@ -1,0 +1,46 @@
+# LOCAL CONDA / PYTHON ENVIRONMENTS
+miniforge3/
+.conda/
+.mamba/
+.venv/
+venv/
+env/
+
+# INSTALLERS / ARCHIVES
+Miniforge3-Linux-x86_64.sh
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# PYTHON CACHE
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# LOGS / TEMP
+*.log
+*.tmp
+tmp/
+temp/
+
+# BUILD / DIST
+build/
+dist/
+*.egg-info/
+
+# ML / LARGE ARTIFACTS
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.safetensors
+*.onnx
+*.npy
+*.npz
+
+# EDITOR / OS
+.vscode/
+.idea/
+.DS_Store
